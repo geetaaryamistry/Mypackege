@@ -1,0 +1,240 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 25 13:34:21 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (98 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestNg.Flag6.FTC4()'><b>FTC4</b><br>Test class: TestNg.Flag6<br/>
+<a href="#Output-764419760" onClick='toggleBox("Output-764419760", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-764419760" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-764419760">
+funtional csae4<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.Flag6@932bc4a</td></tr>
+<tr>
+<td title='TestNg.myTest.f()'><b>f</b><br>Test class: TestNg.myTest</td>
+<td></td>
+<td>0</td>
+<td>TestNg.myTest@d29f28</td></tr>
+<tr>
+<td title='TestNg.Flag6.IT4()'><b>IT4</b><br>Test class: TestNg.Flag6<br/>
+<a href="#Output-1926004335" onClick='toggleBox("Output-1926004335", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1926004335" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1926004335">
+intergration 4<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.Flag6@932bc4a</td></tr>
+<tr>
+<td title='TestNg.Flag6.FTC2()'><b>FTC2</b><br>Test class: TestNg.Flag6<br/>
+<a href="#Output-139566260" onClick='toggleBox("Output-139566260", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-139566260" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-139566260">
+funtional csae2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.Flag6@932bc4a</td></tr>
+<tr>
+<td title='TestNg.Flag6.IT3()'><b>IT3</b><br>Test class: TestNg.Flag6<br/>
+<a href="#Output-1594138273" onClick='toggleBox("Output-1594138273", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1594138273" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1594138273">
+intergration 3<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.Flag6@932bc4a</td></tr>
+<tr>
+<td title='TestNg.Flag6.St1()'><b>St1</b><br>Test class: TestNg.Flag6<br/>
+<a href="#Output-95396809" onClick='toggleBox("Output-95396809", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-95396809" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-95396809">
+Smoke Test1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.Flag6@932bc4a</td></tr>
+<tr>
+<td title='TestNg.Flag6.St2()'><b>St2</b><br>Test class: TestNg.Flag6<br/>
+<a href="#Output-1912821769" onClick='toggleBox("Output-1912821769", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1912821769" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1912821769">
+Smoke Test2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.Flag6@932bc4a</td></tr>
+<tr>
+<td title='TestNg.Flag6.FTC3()'><b>FTC3</b><br>Test class: TestNg.Flag6<br/>
+<a href="#Output-903525611" onClick='toggleBox("Output-903525611", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-903525611" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-903525611">
+funtional csae3<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.Flag6@932bc4a</td></tr>
+<tr>
+<td title='TestNg.Flag6.IT1()'><b>IT1</b><br>Test class: TestNg.Flag6<br/>
+<a href="#Output-1000966072" onClick='toggleBox("Output-1000966072", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1000966072" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1000966072">
+intergration 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.Flag6@932bc4a</td></tr>
+<tr>
+<td title='TestNg.Flag6.St4()'><b>St4</b><br>Test class: TestNg.Flag6<br/>
+<a href="#Output-405215542" onClick='toggleBox("Output-405215542", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-405215542" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-405215542">
+Smoke Test4<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.Flag6@932bc4a</td></tr>
+<tr>
+<td title='TestNg.Flag6.St3()'><b>St3</b><br>Test class: TestNg.Flag6<br/>
+<a href="#Output-151593342" onClick='toggleBox("Output-151593342", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-151593342" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-151593342">
+Smoke Test3<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.Flag6@932bc4a</td></tr>
+<tr>
+<td title='TestNg.Flag6.FTC1()'><b>FTC1</b><br>Test class: TestNg.Flag6<br/>
+<a href="#Output-225672073" onClick='toggleBox("Output-225672073", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-225672073" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-225672073">
+funtional csae<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.Flag6@932bc4a</td></tr>
+<tr>
+<td title='TestNg.Demo.f()'><b>f</b><br>Test class: TestNg.Demo<br/>
+<a href="#Output-1273143001" onClick='toggleBox("Output-1273143001", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1273143001" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1273143001">
+I m H method<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.Demo@120f102b</td></tr>
+<tr>
+<td title='TestNg.Flag6.IT2()'><b>IT2</b><br>Test class: TestNg.Flag6<br/>
+<a href="#Output-1058609221" onClick='toggleBox("Output-1058609221", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1058609221" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1058609221">
+Intergration Test2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNg.Flag6@932bc4a</td></tr>
+</table><p>
+</body>
+</html>
